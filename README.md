@@ -1,1 +1,2 @@
-# sons
+# Efeitos Sonoros
+Marina Dorti e Natan Guimarães - Segunda Série B - Matemática II (Programação)
