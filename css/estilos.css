@@ -65,3 +65,21 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+
+.chuva{
+  background-image: url("../images/chuva.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.passaro{
+  background-image: url("../images/passaro.gif");
+  background-size: 180%;
+  background-repeat: no-repeat;
+}
+
+.floresta{
+  background-image: url("../images/welcome\ to\ the\ mato.gif");
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
