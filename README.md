@@ -1,2 +1,2 @@
 # Sons do ambiente
-Marina Dorti e Natan Guimarães - Segunda Série B - Matemática II (Programação)
+Marina Dorti, Natan Guimarães e Nicole Metring - Segunda Série B - Matemática II (Programação)
