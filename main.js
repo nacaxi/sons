@@ -1,3 +1,3 @@
-document.querySelector('.tecla_pom');
+document.querySelector('.tecla_chuva');
 
 alert("olá mundo")
