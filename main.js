@@ -1,27 +1,15 @@
-function tocaSomChuva(){
+function tocaSom(){
     document.querySelector('#som_tecla_chuva').play();
 }
 
-function tocaSomPassaro(){
-    document.querySelector('#som_tecla_passaro').play();
+const listadeTeclas = document.querySelectorAll('.tecla')
+
+let contador = 0;
+while (contador < listadeTeclas.length){
+    listadeTeclas[contador].onclick = tocaSomChuva;
+    contador = contador + 1;
 }
 
-function tocaSomFloresta(){
-    document.querySelector('#som_tecla_floresta').play();
+function somaValores(a,b){
+    console.log(a + b)
 }
-
-function tocaSomTrovoes(){
-    document.querySelector('#som_tecla_trovoes').play();
-}
-
-function tocaSomFogueira(){
-    document.querySelector('#som_tecla_fogueira').play();
-}
-
-function tocaSomMar(){
-    document.querySelector('#som_tecla_mar').play();
-}
-
-document.querySelector('.tecla chuva').onclick=tocaSomChuva;
-
-document.querySelector('.tecla passaro').onclick=tocaSomPassaro;
